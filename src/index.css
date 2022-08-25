@@ -123,9 +123,6 @@ img{
   section{
     margin-top: 6rem;
   }
-  section.sidemenu{
-    display: none;
-  }
 }
 
 /* *****************Media-Queries(Small-Devices)***********/
@@ -144,10 +141,5 @@ img{
   }
 }
 
-/* *****************Media-Queries(All-Devices)***********/
 
-@media screen and (min-width:1020px){
-/* section.sidemenu{
-  display: none;
-} */
-}
+

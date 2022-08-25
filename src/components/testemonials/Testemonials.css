@@ -2,6 +2,7 @@
     width: 40%;
     margin-top: 2rem;
     padding-bottom: 3rem;
+    z-index: -1;
 }
 .client-avatar{
     width: 4rem;

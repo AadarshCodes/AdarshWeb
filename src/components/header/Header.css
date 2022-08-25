@@ -42,7 +42,7 @@ header {
     height: 30rem;
     width: 22rem;
     margin: 3rem auto 0%;
-     border-radius: 5rem ;
+    border-radius: 5rem;
 }
 
 
@@ -56,35 +56,112 @@ header {
     font-size: 0.9rem;
 }
 
+/***************Hamb***************/
+.hamb {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+    background-color: rgb(240, 214, 218);
+    z-index: 1;
+    width: 45%;
+    padding-top: 1.5rem;
+    transition: 10ms ease-in-out;
+    transition-delay: 5ms ;
+}
+.hamb-list {
+    display: flex;
+    margin: 1rem 2rem;
+    width: 100%;
+}
+
+.hambTag {
+    font-size: medium;
+    font-weight: 300;
+    padding: 5px;
+    display: block;
+    width: 80%;
+    
+}
+
+.hambTag:hover {
+    border-bottom: 1px solid rgb(245, 177, 188);
+    color: white;
+}
+
+.barsIcon {
+    margin: 1rem 1rem;
+    font-size: x-large;
+    position: fixed;
+    cursor: pointer;
+}
+
+.closeHamb {
+    position: absolute;
+    right: 0.8rem;
+    cursor: pointer;
+    color: black;
+    top: 10px;
+    font-size: x-large;
+}
+
 /* *****************Media-Queries(Medium-Devices)**********/
+@media screen and (min-width:1024px) {
+    .hamb {
+        display: none;
+    }
+
+    .barsIcon {
+        display: none;
+    }
+}
 @media screen and (max-width:1024px) {
     header {
-       height: 60%;
+        height: 60%;
     }
-    .myImage{
+
+    .myImage {
         height: 20rem;
+    }
+
+    .hamb {
+        display: none;
+    }
+
+    .barsIcon {
+        display: none;
     }
 
 }
 
 /* *****************Media-Queries(Small-Devices)***********/
- @media screen and (max-width:600px) {
-    .header-container{
+@media screen and (max-width:600px) {
+    .header-container {
         width: var(--container-width-ms);
 
     }
-      header{
+
+    header {
         height: 100vh;
-      }
-    .HeaderSocials,.scroll-down {
+    }
+
+    .HeaderSocials,
+    .scroll-down {
         display: none;
 
     }
-} 
+
+    .hamb {
+        display:flex;
+    }
+    .barsIcon {
+        display: flex;
+    }
+}
 
 @media screen and (max-width:280px) {
-    .header-container{
+    .header-container {
         width: var(--container-width-ms);
-        
+
     }
 }

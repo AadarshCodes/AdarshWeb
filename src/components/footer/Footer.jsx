@@ -8,10 +8,10 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <a href="#Home" className="footer-logo">Adarsh Alone</a>
+        <a href="#header" className="footer-logo">Adarsh Alone</a>
 
         <ul className="links">
-          <li><a href="#Home">Home</a></li>
+          <li><a href="#header">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#services">Services</a></li>
@@ -21,8 +21,8 @@ const Footer = () => {
         </ul>
 
         <div className="footer-socials">
-          <a href="https://facebook.com"><BsFacebook /></a>
-          <a href="https://instagram.com"><FaInstagramSquare /></a>
+          <a href="https://www.facebook.com/adarsh.alonee.5/"><BsFacebook /></a>
+          <a href="https://www.instagram.com/aloneadarsha/"><FaInstagramSquare /></a>
           <a href="https://twitter.com"><BsTwitter /></a>
         </div>
         <div className="footer-copyright">
