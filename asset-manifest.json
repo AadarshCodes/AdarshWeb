@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/AdarshWeb/static/css/main.d6ff91c0.css",
-    "main.js": "/AdarshWeb/static/js/main.38e8c369.js",
+    "main.css": "/AdarshWeb/static/css/main.f115774a.css",
+    "main.js": "/AdarshWeb/static/js/main.2f9d4877.js",
     "static/js/787.749b4a44.chunk.js": "/AdarshWeb/static/js/787.749b4a44.chunk.js",
     "static/media/myImage.jpg": "/AdarshWeb/static/media/myImage.684d31cdb2e24dc11d0d.jpg",
     "index.html": "/AdarshWeb/index.html",
-    "main.d6ff91c0.css.map": "/AdarshWeb/static/css/main.d6ff91c0.css.map",
-    "main.38e8c369.js.map": "/AdarshWeb/static/js/main.38e8c369.js.map",
+    "main.f115774a.css.map": "/AdarshWeb/static/css/main.f115774a.css.map",
+    "main.2f9d4877.js.map": "/AdarshWeb/static/js/main.2f9d4877.js.map",
     "787.749b4a44.chunk.js.map": "/AdarshWeb/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6ff91c0.css",
-    "static/js/main.38e8c369.js"
+    "static/css/main.f115774a.css",
+    "static/js/main.2f9d4877.js"
   ]
 }
