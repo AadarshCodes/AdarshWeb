@@ -62,12 +62,13 @@ header {
     flex-direction: column;
     position: fixed;
     height: 100vh;
-    background-color: rgb(240, 214, 218);
+    background-color:  rgb(243, 225, 227) ;
     z-index: 1;
-    width: 45%;
+    width: 90%;
     padding-top: 1.5rem;
     transition: 10ms ease-in-out;
     transition-delay: 5ms ;
+    transition: var(--transition);
 }
 .hamb-list {
     display: flex;
@@ -80,18 +81,46 @@ header {
     font-weight: 300;
     padding: 5px;
     display: block;
-    width: 80%;
+    width: 30%;
+    border-top: 2px solid  rgb(248, 231, 234);
+    border-bottom: 2px solid rgb(248, 231, 234) ;
     
 }
 
 .hambTag:hover {
-    border-bottom: 1px solid rgb(245, 177, 188);
+    border: 2px solid rgb(245, 177, 188);
     color: white;
+}
+
+.hambSocials{
+    display:flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding-bottom: 20px;
+    border-bottom: 1px solid  rgb(238, 203, 210);
+    width: max-content;
+    margin: 3rem 0 0 5rem;
+}
+.hambSocials >a{
+    font-size: large;
+    padding: 5px;
+    transition: smooth;
+    background-color: rgb(231, 204, 209) ;
+}
+.hambSocials >a:hover{
+    background: transparent;
+    transition: smooth;
+}
+.hambName{
+    color: black;
+    font-weight: 600;
+    font-size: large;
+    margin: 1rem 0 0 6rem;
 }
 
 .barsIcon {
     margin: 1rem 1rem;
-    font-size: x-large;
+    font-size: xx-large;
     position: fixed;
     cursor: pointer;
 }

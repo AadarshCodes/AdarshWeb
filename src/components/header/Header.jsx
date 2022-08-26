@@ -1,6 +1,9 @@
 import{useState} from 'react'
 import './Header.css'
 import CTA from './CTA'
+import { FaLinkedin } from 'react-icons/fa'
+import { BsGithub } from 'react-icons/bs'
+import { BsFacebook } from 'react-icons/bs'
 import myImage from '../../assets/myImage.jpg'
 import HeaderSocials from './HeaderSocials'
 import {GoThreeBars} from 'react-icons/go';
@@ -33,6 +36,15 @@ const Header = () => {
         <li className="hamb-list">
           <a className="hambTag" href="#contact">Contact</a>
           </li>
+          <div className="hambSocials">
+            
+          <a target="_blank" href="https://www.linkedin.com/in/adarsh-alone-551744222" ><FaLinkedin /></a>
+        <a target="_blank" href="https://github.com/AadarshCodes" ><BsGithub /></a>
+        <a target="_blank" href="https://www.facebook.com/adarsh.alonee.5/" ><BsFacebook /></a>
+          </div>
+          <div className="hambName">
+            AdarshAlone.in
+          </div>
       </div>}
       <header>
         <section id='header' className="container header-container">
