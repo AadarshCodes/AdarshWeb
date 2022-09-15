@@ -1,5 +1,5 @@
 .container.testemonials-container{
-    width: 40%;
+    width: 50%;
     margin-top: 2rem;
     padding-bottom: 3rem;
     z-index: -1;
@@ -27,8 +27,11 @@
     width: 80%;
     margin: 0.8rem auto 0;
 }
+.swiper{
+width: 40%;
+}
 
-.swiper-pagination-clickable .swiper-pagination-bullet{
+ .swiper-pagination-bullet{
     background-color: #fff;
 }
 
@@ -37,6 +40,9 @@
 .container.testemonials-container{
     width: 60%;
 }
+.swiper{
+    width: 60%;
+    }
 }
 
 /* *****************Media-Queries(Small-Devices)***********/
@@ -47,4 +53,7 @@
     .client-review{
         width: var(--container-width-ms);
     }
+    .swiper{
+        width: 90%;
+        }
 }

@@ -1,18 +1,25 @@
-import React, { useRef } from 'react'
+
 import './Contact.css'
 import {MdEmail} from 'react-icons/md'
 import {BsMessenger} from 'react-icons/bs'
 import {FaWhatsappSquare} from 'react-icons/fa'
+import  { useRef } from 'react';
+import emailjs from "emailjs-com";
 
-// import emailjs from 'emailjs-com'
 
 const Contact = () => {
-// const form = useRef();
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-// const sendEmail = (e)=>{
-//   e.preventDefault();
-//   emailjs.sendForm('YOUR-SERVICE-ID', 'YOUR-TEMPLATE-ID', form.current, 'XKxhUCvWZfYvFjriL')
-// };
+    emailjs.sendForm('service_qa7chuq', 'template_4yqs0pf', form.current, 'XKxhUCvWZfYvFjriL')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  };
 
   return (
     <section id='contact'>
@@ -43,7 +50,7 @@ const Contact = () => {
 
           
         </div>
-        <form >
+        <form  ref={form} onSubmit={sendEmail}>
             <input type="text" name='name' placeholder='your full name' required />
             <input type="email" name='email' placeholder='your email' required />
             <textarea name="message" rows="7" placeholder='your message' required></textarea>

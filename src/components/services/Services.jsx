@@ -15,15 +15,15 @@ const Services = () => {
           <ul className="service-list">
             <li>
               <BiCheck className='service-list-icons'/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Design a beautiful UI.</p>
             </li>
             <li>
               <BiCheck className='service-list-icons'/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Build a complex UI. </p>
             </li>
             <li>
               <BiCheck className='service-list-icons'/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Basics to advance type UI build.</p>
             </li>
             <li>
               <BiCheck className='service-list-icons'/>
@@ -49,23 +49,23 @@ const Services = () => {
           <ul className="service-list">
             <li>
               <BiCheck className='service-list-icons'/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Build a fronted websites.</p>
             </li>
             <li>
               <BiCheck className='service-list-icons'/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Build a backend websites.</p>
             </li>
             <li>
               <BiCheck className='service-list-icons'/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Fullstack websites also we build.</p>
             </li>
             <li>
               <BiCheck className='service-list-icons'/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Best fullstack websites we build.</p>
             </li>
             <li>
               <BiCheck className='service-list-icons'/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Frontend websites are our specality.</p>
             </li>
             <li>
               <BiCheck className='service-list-icons'/>
@@ -94,15 +94,15 @@ const Services = () => {
           <ul className="service-list">
             <li>
               <BiCheck className='service-list-icons'/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>We crete most unique content.</p>
             </li>
             <li>
               <BiCheck className='service-list-icons'/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Every type of content we create.</p>
             </li>
             <li>
               <BiCheck className='service-list-icons'/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Content for your requirment we create.</p>
             </li>
             <li>
               <BiCheck className='service-list-icons'/>

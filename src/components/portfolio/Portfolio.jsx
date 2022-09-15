@@ -1,6 +1,8 @@
 
 import './Portfolio.css'
-import PImage from '../../assets/logo.wipro.jpg'
+import Youtube from '../../assets/youtube.jpg'
+import Tesla from '../../assets/tesla.webp'
+import Portfolio1 from '../../assets/portfolio.webp'
 
 const Portfolio = () => {
   return (
@@ -10,62 +12,62 @@ const Portfolio = () => {
       <div className="container portfolio-container">
         <article className="portfolio-item">
           <div className="portfolio-item-image">
-            <img src={PImage} alt="" />
+            <img src={Portfolio1} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio-item-CTA">
-            <a href="https://github.com/AadarshCodes/Tesla-clone" className='btn'>Github</a>
-            <a href="https//github.com" className='btn btn-primary'>Github</a>
+            <a href="https://github.com/AadarshCodes/AdarshWeb" className='btn' target="_blank">Github</a>
+            <a href="https//aadarshcodes.github.io/AdarshWeb/" className='btn btn-primary'target="_blank">Demo</a>
           </div>
         </article>
         <article className="portfolio-item">
           <div className="portfolio-item-image">
-            <img src={PImage} alt="" />
+            <img src={Tesla} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio-item-CTA">
-            <a href="https//github.com" className='btn'>Github</a>
-            <a href="https//github.com" className='btn btn-primary'>Github</a>
+            <a href="https://github.com/AadarshCodes/Tesla-Clone" className='btn' target="_blank">Github</a>
+            <a href="https://teslaclonebyadarsh.netlify.app" className='btn btn-primary' target="_blank">Demo</a>
           </div>
         </article>
         <article className="portfolio-item">
           <div className="portfolio-item-image">
-            <img src={PImage} alt="" />
+            <img src={Youtube} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio-item-CTA">
-            <a href="https//github.com" className='btn'>Github</a>
-            <a href="https//github.com" className='btn btn-primary'>Github</a>
+            <a href="https://github.com/AadarshCodes/VideoTube-app" className='btn'  target="_blank">Github</a>
+            <a href="https//github.com" className='btn btn-primary' target="_blank">Demo</a>
           </div>
         </article>
         <article className="portfolio-item">
           <div className="portfolio-item-image">
-            <img src={PImage} alt="" />
+            <img src={Youtube} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio-item-CTA">
-            <a href="https//github.com" className='btn'>Github</a>
-            <a href="https//github.com" className='btn btn-primary'>Github</a>
+            <a href="https//github.com" className='btn'  target="_blank">Github</a>
+            <a href="https//github.com" className='btn btn-primary' target="_blank">Github</a>
           </div>
         </article>
         <article className="portfolio-item">
           <div className="portfolio-item-image">
-            <img src={PImage} alt="" />
+            <img src={Youtube} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio-item-CTA">
-            <a href="https//github.com" className='btn'>Github</a>
-            <a href="https//github.com" className='btn btn-primary'>Github</a>
+            <a href="https//github.com" className='btn' target="_blank">Github</a>
+            <a href="https//github.com" className='btn btn-primary'target="_blank">Github</a>
           </div>
         </article>
         <article className="portfolio-item">
           <div className="portfolio-item-image">
-            <img src={PImage} alt="" />
+            <img src={Youtube} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio-item-CTA">
-            <a href="https//github.com" className='btn'>Github</a>
-            <a href="https//github.com" className='btn btn-primary'>Github</a>
+            <a href="https//github.com" className='btn' target="_blank">Github</a>
+            <a href="https//github.com" className='btn btn-primary' target="_blank">Github</a>
           </div>
         </article>
       </div>

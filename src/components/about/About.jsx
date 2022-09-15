@@ -20,22 +20,22 @@ const About = () => {
               <article className='about-card'>
                 <RiServiceFill className='about-icons'/>
                 <h5>Experience</h5>
-                <small>5+ years Working</small>
+                <small>6months +</small>
               </article>
 
               <article className='about-card'>
                 <RiServiceFill className='about-icons'/>
                 <h5>Clients</h5>
-                <small>180+</small>
+                <small>1+</small>
               </article>
 
               <article className='about-card'>
                 <RiServiceFill className='about-icons'/>
                 <h5>Project</h5>
-                <small>50+ done</small>
+                <small>10+ done</small>
               </article>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem perspiciatis, atque voluptate aliquam ipsa fuga eveniet magnam magni omnis delectus quibusdam ducimus, odio nobis qui corporis cumque, molestiae corrupti.</p>
+            <p>My name <a style={{color:"lightPink"}}> Adarsh N. Alone</a> i complate my degree in Bachlor of vocational the field in (Software Development).i am intern in V.K. Technology and Services and i work professionally as a Fullstack Developer.</p>
 
             <a href="#contact" className='btn btn-primary'>Contact</a>
           </div>

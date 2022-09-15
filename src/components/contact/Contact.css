@@ -51,8 +51,10 @@ textarea {
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-bg);
+    border: 2px solid var(--color-border);
     resize: none;
+    color:#fff;
+    font-size: 13px;
 }
 
 /* *****************Media-Queries(Medium-Devices)**********/
