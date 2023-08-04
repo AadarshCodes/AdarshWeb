@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/AdarshWeb/static/css/main.0916f4c7.css",
-    "main.js": "/AdarshWeb/static/js/main.9bdc2e3e.js",
+    "main.js": "/AdarshWeb/static/js/main.adea9366.js",
     "static/media/myImage.jpg": "/AdarshWeb/static/media/myImage.684d31cdb2e24dc11d0d.jpg",
     "static/media/youtube.jpg": "/AdarshWeb/static/media/youtube.50104724e533d04122f1.jpg",
     "static/media/tesla.webp": "/AdarshWeb/static/media/tesla.c3107b81c9f9597acbdb.webp",
     "static/media/portfolio.webp": "/AdarshWeb/static/media/portfolio.0e7cf25458e5c6dce5b0.webp",
     "index.html": "/AdarshWeb/index.html",
     "main.0916f4c7.css.map": "/AdarshWeb/static/css/main.0916f4c7.css.map",
-    "main.9bdc2e3e.js.map": "/AdarshWeb/static/js/main.9bdc2e3e.js.map"
+    "main.adea9366.js.map": "/AdarshWeb/static/js/main.adea9366.js.map"
   },
   "entrypoints": [
     "static/css/main.0916f4c7.css",
-    "static/js/main.9bdc2e3e.js"
+    "static/js/main.adea9366.js"
   ]
 }
