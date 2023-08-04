@@ -50,7 +50,7 @@ const Header = () => {
         <section id='header' className="container header-container">
           <h4>Hello I'm</h4>
           <h1>Adarsh Alone</h1>
-          <h4>Fullstack Developer</h4>
+          <h4>UI/UX designer | Front-end developer</h4>
           <CTA />
           <HeaderSocials />
 
